@@ -6,6 +6,7 @@ from PythonClientAPI.Game.World import World
 class PlayerAI:
 
     def __init__(self):
+        #adsoifjoaspidf
         """
         Any instantiation code goes here
         """
