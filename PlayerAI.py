@@ -6,6 +6,12 @@ from PythonClientAPI.Game.World import World
 class PlayerAI:
 
     def __init__(self):
+        
+        squadDir = 0;	#0: North,	1:West,	2:South,	3: East
+	    squadLeader = 0;	#ID of squad leader
+	    squadPos = 0;		#0: Leader, -1: Left Wing,	1: Right Wing	
+	    squadCount = 1;	#Number of people in squad
+
         """
         Any instantiation code goes here
         """
